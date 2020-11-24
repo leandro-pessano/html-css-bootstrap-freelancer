@@ -57,6 +57,13 @@ h3 {
   font-size: 18px;
 }
 
+p {
+  line-height: 1.6;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 /* Header */
 header {
   height: 90px;
@@ -88,6 +95,28 @@ header {
   width: 100%;
   margin-bottom: 30px;
   border-radius: 10px;
+}
+
+/* About */
+#about .row {
+  padding: 0 10%;
+}
+
+#about p {
+  margin: 20px;
+}
+
+#about .btn_download {
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+#about .btn_download:hover {
+  color: #2c3e50;
+  text-decoration: none;
+  border: 1px solid #2c3e50;
 }
 
 @media screen and (min-width:992px) {
