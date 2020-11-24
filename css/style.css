@@ -1,0 +1,81 @@
+.ms_white {
+  color: white;
+}
+
+.ms_uppercase {
+  text-transform: uppercase;
+}
+
+.ms_star i {
+  font-size: 28px;
+  vertical-align: middle;
+  margin: 0 3%;
+}
+
+.ms_star::before ,
+.ms_star::after {
+  content:'';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: white;
+}
+
+h1 {
+  font-size: 300%;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+/* Header */
+header {
+  height: 90px;
+}
+.navbar.ms_navbar {
+  background-color: #2c3e50;
+  border: 0;
+  margin-bottom: 0;
+  padding: 20px 0;
+}
+
+.navbar.ms_navbar .navbar-brand ,
+.navbar.ms_navbar .navbar-right li a {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.navbar.ms_navbar .navbar-brand {
+  font-size: 20px;
+}
+
+.navbar.ms_navbar .navbar-right li a:hover{
+  color:#1abc9c;
+}
+
+/* Jumbotron */
+#jumbotron {
+  background-color: #1abc9c;
+}
+
+#jumbotron [class*="col-"] {
+  padding: 60px 0;
+}
+
+@media screen and (min-width:992px) {
+  .navbar.ms_navbar .navbar-brand {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 400%;
+  }
+
+  h3 {
+  font-size: 24px;
+  }
+}
